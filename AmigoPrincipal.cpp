@@ -5,6 +5,15 @@
 
 using namespace std;
 
+struct AmigoSecreto {
+    string nome;
+    string contato;
+    string amigoSecreto;
+};
+
+vector<AmigoSecreto> listaAmigos;
+int amg = 0;
+
 #include "RegistraAmigo.h"
 #include "ListaAmigos.h"
 #include "GerarAmigo.h"
