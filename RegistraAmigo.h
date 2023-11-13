@@ -1,9 +1,9 @@
-struct AmigoSecreto{
+/*struct AmigoSecreto{
     string nome;
     string contato;
 }
 
-vector <AmigoSecreto> listaAmigos;
+vector <AmigoSecreto> listaAmigos;*/
 
 bool nomeExistente (string nome){
     for ( const AmigoSecreto& amigoSecreto : listaAmigos){
